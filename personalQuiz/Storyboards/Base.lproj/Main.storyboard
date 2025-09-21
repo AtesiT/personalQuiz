@@ -76,7 +76,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="erh-kD-N5l">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="erh-kD-N5l" userLabel="Stack View 3">
                                 <rect key="frame" x="16" y="225.5" width="288" height="117"/>
                                 <subviews>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="rX9-p7-GCh">
@@ -106,7 +106,7 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="kcv-5m-500" userLabel="Stack View Buttons">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="kcv-5m-500" userLabel="Stack View 2">
                                 <rect key="frame" x="122.5" y="191" width="75" height="186"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbL-wF-xQ6">
@@ -131,7 +131,7 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Y4x-iX-DQb">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Y4x-iX-DQb" userLabel="Stack View 1">
                                 <rect key="frame" x="16" y="171" width="288" height="226"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="f3I-Vu-SEA">
@@ -227,12 +227,6 @@
                             <constraint firstItem="h0l-K7-vya" firstAttribute="trailing" secondItem="ecZ-hc-2lX" secondAttribute="trailing" id="vgN-gY-Nof"/>
                             <constraint firstItem="0u5-jl-UPU" firstAttribute="leading" secondItem="ecZ-hc-2lX" secondAttribute="leading" constant="19" id="wAz-Ni-HyN"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="kcv-5m-500"/>
-                                <exclude reference="Y4x-iX-DQb"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="JtX-0R-hGc"/>
                 </viewController>
